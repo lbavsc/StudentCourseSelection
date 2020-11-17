@@ -54,10 +54,12 @@ Linux应用编程复习周小项目，共分为学生信息管理模块和课程
 ```
 ### 使用
 ```
-$ git clone 
+$ git clone https://github.com/lbavsc/StudentCourseSelection.git
 ```
 
 连接数据库，创建一个名为“elective-course_system”的数据库（数据库相关配置存放在 ```/include/sql_pub.h``` ），将sql文件导入
+
+修改```myenv.sh```里```ROOT```的地址为当前目录地址
 
 ```
 $ source myenv.sh
