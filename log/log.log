@@ -1,0 +1,28 @@
+[2020-10-17 08:56:18] 添加了学号为 1000000002 的学生信息: insert into student_information(student_id, student_name) values (1000000002, 'ala') 
+[2020-10-17 08:56:59] 删除了学号为 1000000003 的学生信息: delete from selected_course_student where student_id = 1000000003 
+[2020-10-17 08:57:55] 修改了学号为 1000000002 的学生信息: update student_information set student_id = 1000000002, student_name = 'ir'  where student_id = 修改了学号为 1000000002 的学生信息: delete from selected_course_student where student_id = 1000000003  
+[2020-10-17 08:59:23] 修改了学号为 1000000002 的学生信息: update student_information set student_id = 1000000002, student_name = 'dir'  where student_id =修改了学号为 1000000002 的学生信息:  
+[2020-10-17 09:00:18] 添加了学号为 1000000003 的学生信息: insert into student_information(student_id, student_name) values (1000000003, 'drr') 
+[2020-10-17 09:00:31] 删除了学号为 1000000003 的学生信息: delete from selected_course_student where student_id = 1000000003 
+[2020-10-17 09:01:22] 修改了学号为 1000000002 的学生信息: update student_information set student_id = 1410065410, student_name = 'opt'  where student_id = 1000000002 
+[2020-10-17 09:01:47] 修改了学号为 1410065410 的学生信息: update student_information set student_id = 1410065410, student_name = 'dir'  where student_name = 'opt' 
+[2020-10-17 09:02:21] 增加了课程信息: insert into course_information(course_name, course_nature, course_hours, course_credit, course_m增加了课程信息: �言编程', '必修课', 60, 4.500000, 100) 
+[2020-10-17 09:02:38] 给 1000000001 增加了编号为 21 课程: insert ignore into selected_course_student(student_id, course_id) values (1000000001, 21) 
+[2020-10-17 09:04:01] 修改了编号为 19 课程信息: update course_information set course_name = 'Linux编程', course_nature = '选修课', course_h修改了编号为 19 课程信息:  course_max_people = 100 where course_number = 19 
+[2020-10-17 09:08:06] 增加了课程信息: insert into course_information(course_name, course_nature, course_hours, course_credit, course_max_people) values ('Java编程', '必修课', 84, 4.500000, 100) 
+[2020-10-17 09:08:23] 增加了课程信息: insert into course_information(course_name, course_nature, course_hours, course_credit, course_max_people) values ('1', '必修课', 11, 1.000000, 1) 
+[2020-10-17 09:08:31] 删除了编号为 23 课程信息: delete from selected_course_student where course_id = 23 
+[2020-10-17 09:09:32] 修改了编号为 19 课程信息: update course_information set course_name = 'C#编程', course_nature = '选修课', course_hours = 60, course_credit = 3.000000, course_max_people = 100 where course_number = 19 
+[2020-10-17 09:10:15] 修改了编号为 19 课程信息: update course_information set course_name = 'UI设计', course_nature = '公选课', course_hours = 36, course_credit = 2.000000, course_max_people = 50 where course_name = 'C#编程' 
+[2020-10-17 11:03:47] 添加了学号为 1000000004 的学生信息: insert into student_information(student_id, student_name) values (1000000004, 'qwe') 
+[2020-10-17 11:06:13] 删除了学号为 1000000004 的学生信息: delete from selected_course_student where student_id = 1000000004 
+[2020-10-17 11:14:29] 增加了课程信息: insert into course_information(course_name, course_nature, course_hours, course_credit, course_max_people) values ('软件需求', '选修课', 48, 2.000000, 100) 
+[2020-10-17 11:14:55] 删除了编号为 24 课程信息: delete from selected_course_student where course_id = 24 
+[2020-10-17 11:15:39] 修改了编号为 19 课程信息: update course_information set course_name = 'UI设计', course_nature = '公选课', course_hours = 30, course_credit = 2.000000, course_max_people = 100 where course_number = 19 
+[2020-10-17 11:16:18] 修改了编号为 16 课程信息: update course_information set course_name = '线性代数', course_nature = '必修课', course_hours = 100, course_credit = 5.000000, course_max_people = 100 where course_name = '线性代数' 
+[2020-10-17 11:16:44] 给 1812001029 增加了编号为 22 课程: insert ignore into selected_course_student(student_id, course_id) values (1812001029, 22) 
+[2020-10-17 11:17:36] 给 1812001029 删除了编号为 22 课程: delete from selected_course_student where student_id = 1812001029 and course_id = 22 
+[2020-10-17 11:17:46] 给 1812001029 增加了编号为 22 课程: insert ignore into selected_course_student(student_id, course_id) values (1812001029, 22) 
+[2020-10-17 11:18:05] 删除了学号为 1812001028 的学生信息: delete from selected_course_student where student_id = 1812001028 
+[2020-10-17 11:18:42] 修改了学号为 1000000002 的学生信息: update student_information set student_id = 1000000002, student_name = 'drr'  where student_id = 1000000002 
+[2020-10-17 11:19:00] 修改了学号为 1000000000 的学生信息: update student_information set student_id = 1000000000, student_name = 'dir'  where student_name = 'drr' 
